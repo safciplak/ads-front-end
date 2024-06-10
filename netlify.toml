@@ -1,4 +1,0 @@
-[build]
-  command = "npm install && npm run serve"
-  publish = "public"
-  node_version = "17"

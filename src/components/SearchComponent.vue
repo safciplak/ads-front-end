@@ -24,8 +24,7 @@ export default {
   },
   methods: {
     async search() {
-      //const response = await fetch(`http://localhost:8080/search?query=${this.query}`);
-      const response = await fetch(`https://ads-backend.netlify.app/search?query=${this.query}`);
+      const response = await fetch(`http://localhost:8080/search?query=${this.query}`);
       let data = await response.json();
 
      this.results = data.results; 
